@@ -1,66 +1,99 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     font-family: 'Mukta', sans-serif;
     /* font-family: 'Noto Serif', serif; */
 
 }
-header{
+
+header {
     height: 600px;
 
 }
-.homeImage{
-    /* background-image: url("https://images.unsplash.com/photo-1590231204765-12b10cedb4fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80"); */
+
+.homeImage {
+    background-image: url("https://images.unsplash.com/photo-1590231204765-12b10cedb4fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80");
     width: 100%;
-    background-size: cover;
+    /* background-size: cover; */
     /* opacity: 0.6; */
+    background-size: 100% 100%;
     /* height: 600px; */
 }
-.aboutImage{
+
+.aboutImage {
     background-image: url("https://www.usnews.com/object/image/00000179-a8bd-df6c-a97d-bfff6e2f0000/210526-graduation-stock.jpg?update-time=1622033753815&size=responsive640");
     width: 100%;
     /* height: 600px; */
+    background-size: 100% 100%;
     /* background-size: contain; */
     /* background-repeat: no-repeat; */
-    background-size: cover;
-    
+    /* background-size: cover; */
+
 }
-nav{
+
+nav {
     display: flex;
     flex-direction: row;
     /* color:red; */
-    justify-content: space-between;
+    justify-content: space-around;
+    font-size: 20px;
+    padding-top: 20px;
     /* opacity: 1; */
 }
-nav ul li{
+
+nav ul li {
     /* list-style: none; */
     text-decoration: none;
-    display: inline-block; 
+    display: inline-block;
+    padding: 0px 10px;
 }
-nav ul li a{
+
+nav a {
     text-decoration: none;
+    color: white;
 }
-.headerData{
+
+.headerData {
     display: flex;
     flex-direction: column;
     height: 100%;
     justify-content: center;
     align-items: center;
+    color: white;
 }
-.headerData p{
-    padding: 20px;
+
+.headerTitle {
+    font-size: 30px;
+
 }
-.headerData button{
+
+.headerDescription {
+    font-size: 15px;
+}
+
+button {
+    transition-duration: 0.4s;
     padding: 10px;
+    border: none;
 }
-.container{
+
+
+button:hover {
+    background-color: rgb(230 225 185);
+    ;
+    /* Green */
+    color: balck;
+}
+
+.container {
     display: flex;
     /* border: 1px blue solid; */
     margin-top: 40px;
     flex-direction: column;
     align-items: center;
 }
-.sub-container{
+
+.sub-container {
     width: 70%;
     margin-bottom: 20px;
     /* border: 1px purple solid; */
@@ -68,15 +101,18 @@ nav ul li a{
     flex-direction: column;
     align-items: center;
 }
-.headTitle{
+
+.headTitle {
     font-weight: 900;
     font-size: 4em;
 }
-.headDescription{
+
+.headDescription {
     margin-top: 20px;
-    color:rgb(161, 153, 153)
+    color: rgb(161, 153, 153)
 }
-.card-container{
+
+.card-container {
     display: flex;
     margin-top: 20px;
 
@@ -84,24 +120,27 @@ nav ul li a{
     justify-content: space-evenly;
 
 }
-.card{
+
+.card {
     width: 30%;
-    background-color:rgb(230 225 185);
+    background-color: rgb(230 225 185);
     border-radius: 5%;
     margin-top: 20px;
     text-align: center;
     /* border:1px solid red;    */
 }
-.cardTitle{
+
+.cardTitle {
     font-size: 2em;
-    
-}
-.cardDescription{
-    color:rgb(161, 153, 153)
 
 }
-.container2{
-    
+
+.cardDescription {
+    color: rgb(161, 153, 153)
+}
+
+.container2 {
+
     display: flex;
     /* border: 1px blue solid; */
     flex-direction: row;
@@ -109,11 +148,31 @@ nav ul li a{
     margin-top: 40px;
     /* justify-content: space-evenly; */
     justify-content: space-around;
-    
+
 }
-.section{
+
+.section {
+    /* width: 40%; */
+    display: flex;
+    flex-direction: column;
+}
+
+.contact {
+    /* padding-top: 20px; */
     width: 40%;
+    height: 250px;
+    border-radius: 5%;
+    background-color: rgb(239, 220, 154);
 }
-footer{
+
+.contactInfo {
+    border: none;
+    margin-top: 10px;
+    outline: none;
+    margin: 10px 5px;
+    /* width: 88%; */
+}
+
+footer {
     margin-top: 100px;
 }
