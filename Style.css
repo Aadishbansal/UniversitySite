@@ -64,6 +64,7 @@ nav a {
 
 .headerTitle {
     font-size: 30px;
+    font-weight: bolder;
 
 }
 
@@ -152,6 +153,12 @@ button:hover {
 }
 
 .section {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-container {
     /* width: 40%; */
     display: flex;
     flex-direction: column;
@@ -175,4 +182,37 @@ button:hover {
 
 footer {
     margin-top: 100px;
+}
+
+.icons {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.icon {
+    margin-top: 20px;
+    text-align: center;
+    width: 8%;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+
+}
+
+.icon-f {
+    background-color: rgb(221, 184, 20);
+}
+
+.icon-t {
+    background-color: rgb(63, 63, 156);
+}
+
+.icon-i {
+    background-color: rgb(197, 36, 36);
+}
+
+.icon-ld {
+    background-color: rgb(12, 12, 226);
 }
